@@ -16,7 +16,7 @@ export function ExperienceBar() {
             <span>600 xp</span>
             <main>
                 <div>
-                    <button onClick={() => setExperience((experience + 50) % 600)}>Aumentar xp</button>
+                    <button onClick={() => setExperience((experience + 50) % 600)}>Aumentar teste xp</button>
                 </div>
             </main> 
         </header>
